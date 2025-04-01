@@ -49,10 +49,11 @@ rails db:migrate
 
 ### In Your Models
 
-Declare which attributes should be checksummed:
+Include the checksum functionality in your model:
 
 ```ruby
 class Document < ApplicationRecord
+  include ChecksumAttributes::HasChecksum
   has_checksum_for :title, :content, :author_id, digest_type: :sha256
 end
 ```
