@@ -2,7 +2,7 @@
 
 > **Development Status**: This gem is currently in active development and its API may change before the first stable release. Use at your own risk.
 
-A Ruby gem that provides a mechanism for computing and verifying checksums on specified attributes of ActiveRecord models. This helps ensure data integrity by detecting unauthorized changes to critical model data.
+A Ruby gem that provides a mechanism for computing and verifying checksums on specified attributes of ActiveRecord models.
 
 ## Features
 
